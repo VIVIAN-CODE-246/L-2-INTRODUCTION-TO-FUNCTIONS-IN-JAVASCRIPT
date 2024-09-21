@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNCTIONS</title>
+</head>
+<body>
+    <h1 id="heading"></h1>
+    <p id="paragraph"></p>
+    <h2 id="VIVIAN"></h2>
+    <p id="add"></p>
+    <h3 id="divide"></h3>
+
+    <button onclick="heading ()">Click me</button>
+    <button onclick="paragraph ()">Click</button>
+    <button onclick="mark ()">HOVER</button>
+    <button onclick="add (111,222)" >Add</button>
+    <button onclick="divide (333,3)">Divide</button>
+    <script>
+        function heading (){
+            document.getElementById("heading").innerHTML = "VIVIAN"
+        }
+
+        function paragraph (){
+            document.getElementById("paragraph").innerHTML = "I am beautiful"
+        }
+
+        function mark (){
+            document.getElementById("VIVIAN").innerHTML = "I AM IN GRADE TEN(10)  i.e Senior Secondary School One"
+        }
+
+        function add(x,y){
+            document.getElementById("add").innerHTML = x + y
+        }
+
+        function divide(y,z){
+            document.getElementById("divide").innerHTML = y/z
+        }
+    </script>
+</body>
+</html>
